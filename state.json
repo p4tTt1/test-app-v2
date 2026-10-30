@@ -55,9 +55,9 @@
    "33422": {
     "info": "3 Zimmer  | 78,55m² | monatliche Kosten: € 914,14 | Finanzierung: € 10.102,24",
     "where": "1120 Wien Breitenfurter Straße 73 , Top 124",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
+    "badge": "verfügbar",
+    "available": true,
+    "signup": "full"
    }
   }
  },
