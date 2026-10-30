@@ -1,7 +1,7 @@
 name: nhg-watch
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "3-59/5 5-22 * * *"
   workflow_dispatch:
 permissions:
   contents: write
