@@ -138,9 +138,9 @@
    "1214": {
     "info": "3 Zimmer  | 73,32m² | monatliche Kosten: € 989,93 | Finanzierung: € 8.235,74",
     "where": "1210 Wien Johannes-de-La-Salle-Gasse 4 , Top 20, Stiege 2",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
+    "badge": "verfügbar",
+    "available": true,
+    "signup": "open"
    }
   }
  },
