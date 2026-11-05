@@ -159,9 +159,9 @@
    "41637": {
     "info": "80,00m² | monatliche Kosten: € 781,13",
     "where": "1210 Wien Ottilie-Bondy-Promenade 11 , Top 18",
-    "badge": "verfügbar",
-    "available": true,
-    "signup": "full"
+    "badge": "reserviert",
+    "available": false,
+    "signup": null
    }
   }
  },
