@@ -41,9 +41,9 @@
    "33422": {
     "info": "3 Zimmer  | 78,55m² | monatliche Kosten: € 914,14 | Finanzierung: € 10.102,24",
     "where": "1120 Wien Breitenfurter Straße 73 , Top 124",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
+    "badge": "verfügbar",
+    "available": true,
+    "signup": "open"
    }
   }
  },
@@ -99,15 +99,7 @@
   "name": "Hochfeldstraße 33",
   "addr": "Hochfeldstraße 33, 1210 Wien",
   "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=272",
-  "tops": {
-   "21982": {
-    "info": "3 Zimmer  | 79,42m² | monatliche Kosten: € 599,06 | Finanzierung: € 9.267,14",
-    "where": "1210 Wien Hochfeldstraße 33 , Top 5, Stiege 5",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
-   }
-  }
+  "tops": {}
  },
  "610": {
   "name": "Johannes-de-La-Salle-Gasse 4",
