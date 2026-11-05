@@ -27,9 +27,9 @@
    "6380": {
     "info": "69,38m² | monatliche Kosten: € 591,58 | Finanzierung: € 14.184,82",
     "where": "1110 Wien Leberweg 18 , Top 24, Stiege 1",
-    "badge": "verfügbar",
-    "available": true,
-    "signup": "full"
+    "badge": "reserviert",
+    "available": false,
+    "signup": null
    }
   }
  },
