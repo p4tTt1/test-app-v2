@@ -41,9 +41,9 @@
    "33422": {
     "info": "3 Zimmer  | 78,55m² | monatliche Kosten: € 914,14 | Finanzierung: € 10.102,24",
     "where": "1120 Wien Breitenfurter Straße 73 , Top 124",
-    "badge": "verfügbar",
-    "available": true,
-    "signup": "full"
+    "badge": "reserviert",
+    "available": false,
+    "signup": null
    }
   }
  },
@@ -113,6 +113,13 @@
     "badge": "reserviert",
     "available": false,
     "signup": null
+   },
+   "8024": {
+    "info": "74,95m² | monatliche Kosten: € 1.184,80",
+    "where": "1210 Wien Johannes-de-La-Salle-Gasse 4 , Top 35, Stiege 2",
+    "badge": "verfügbar",
+    "available": true,
+    "signup": "open"
    }
   }
  },
