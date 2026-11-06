@@ -117,9 +117,9 @@
    "25446": {
     "info": "2 Zimmer  | 51,86m² | monatliche Kosten: € 765,98 | Finanzierung: € 6.317,82",
     "where": "1210 Wien Johannes-de-La-Salle-Gasse 4 , Top 4, Stiege 2",
-    "badge": "verfügbar",
-    "available": true,
-    "signup": "full"
+    "badge": "reserviert",
+    "available": false,
+    "signup": null
    },
    "1214": {
     "info": "3 Zimmer  | 73,32m² | monatliche Kosten: € 989,93 | Finanzierung: € 8.235,74",
@@ -143,7 +143,7 @@
   "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=301",
   "tops": {
    "21724": {
-    "info": "60,44m² | monatliche Kosten: € 613,46",
+    "info": "60,44m² | monatliche Kosten: € 613,46 | Finanzierung: € 12.970,93",
     "where": "1210 Wien Weisselgasse 5 , Top 39",
     "badge": "verfügbar",
     "available": true,
@@ -157,7 +157,7 @@
   "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=338",
   "tops": {
    "41637": {
-    "info": "80,00m² | monatliche Kosten: € 781,13",
+    "info": "80,00m² | monatliche Kosten: € 781,13 | Finanzierung: € 4.190,79",
     "where": "1210 Wien Ottilie-Bondy-Promenade 11 , Top 18",
     "badge": "reserviert",
     "available": false,
