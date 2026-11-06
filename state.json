@@ -137,20 +137,6 @@
    }
   }
  },
- "301": {
-  "name": "Weisselgasse 5",
-  "addr": "Weisselgasse 5, 1210 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=301",
-  "tops": {
-   "21724": {
-    "info": "60,44m² | monatliche Kosten: € 613,46 | Finanzierung: € 12.970,93",
-    "where": "1210 Wien Weisselgasse 5 , Top 39",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
-   }
-  }
- },
  "338": {
   "name": "Ottilie-Bondy-Promenade 11",
   "addr": "Ottilie-Bondy-Promenade 11, 1210 Wien",
@@ -159,6 +145,20 @@
    "41637": {
     "info": "80,00m² | monatliche Kosten: € 781,13 | Finanzierung: € 4.190,79",
     "where": "1210 Wien Ottilie-Bondy-Promenade 11 , Top 18",
+    "badge": "reserviert",
+    "available": false,
+    "signup": null
+   }
+  }
+ },
+ "301": {
+  "name": "Weisselgasse 5",
+  "addr": "Weisselgasse 5, 1210 Wien",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=301",
+  "tops": {
+   "21724": {
+    "info": "60,44m² | monatliche Kosten: € 613,46 | Finanzierung: € 12.970,93",
+    "where": "1210 Wien Weisselgasse 5 , Top 39",
     "badge": "reserviert",
     "available": false,
     "signup": null
@@ -226,6 +226,12 @@
     "signup": null
    }
   }
+ },
+ "57": {
+  "name": "Rodauner Straße 53",
+  "addr": "Rodauner Straße 53, 1230 Wien",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=57",
+  "tops": {}
  },
  "311": {
   "name": "Autofabrikstraße 9",
