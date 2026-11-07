@@ -69,9 +69,9 @@
    "8330": {
     "info": "3 Zimmer  | 84,91m² | monatliche Kosten: € 685,77 | Finanzierung: € 10.592,72",
     "where": "1140 Wien Hütteldorfer Straße 311 , Top 9, Stiege 6",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
+    "badge": "verfügbar",
+    "available": true,
+    "signup": "open"
    }
   }
  },
