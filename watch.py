@@ -14,6 +14,27 @@ TOPIC = os.environ["NTFY_TOPIC"]
 HEADERS = {"User-Agent": "Mozilla/5.0 (private apartment watcher)"}
 BLOCKED = {"reserviert", "vergeben"}
 
+# Projekte, die ignoriert werden sollen (ID als Text, Kommentar zur Erinnerung)
+BLOCKED_IDS = {
+    "765",
+    "311",
+    "338",
+    "255",
+    "67",
+    "330",
+    "328"
+}
+
+# Textteile in Name oder Adresse (ohne Beachtung der Groß-/Kleinschreibung)
+BLOCKED_TEXT = []
+
+
+def is_blocked(pid, p):
+    if pid in BLOCKED_IDS:
+        return True
+    hay = f'{p["name"]} {p["addr"]}'.lower()
+    return any(t.lower() in hay for t in BLOCKED_TEXT)
+
 
 def build_bundle():
     ca = Path(certifi.where()).read_text()
@@ -101,6 +122,8 @@ def main():
     new = {}
 
     for pid, p in projects.items():
+        if is_blocked(pid, p):
+            continue
         time.sleep(1)
         try:
             tops = parse_tops(get(p["url"]))
