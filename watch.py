@@ -22,7 +22,8 @@ BLOCKED_IDS = {
     "255",
     "67",
     "330",
-    "328"
+    "328",
+    "816"
 }
 
 # Textteile in Name oder Adresse (ohne Beachtung der Groß-/Kleinschreibung)
