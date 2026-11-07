@@ -5,34 +5,6 @@
   "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=816",
   "tops": {}
  },
- "255": {
-  "name": "Paulasgasse 16",
-  "addr": "Paulasgasse 16, 1110 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=255",
-  "tops": {
-   "21280": {
-    "info": "1 Zimmer  | 32,19m² | monatliche Kosten: € 256,04 | Finanzierung: € 5.012,81",
-    "where": "1110 Wien Paulasgasse 16 , Top 2, Stiege B1",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
-   }
-  }
- },
- "67": {
-  "name": "Leberweg 12-18",
-  "addr": "Leberweg 12-18, 1110 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=67",
-  "tops": {
-   "6380": {
-    "info": "69,38m² | monatliche Kosten: € 591,58 | Finanzierung: € 14.184,82",
-    "where": "1110 Wien Leberweg 18 , Top 24, Stiege 1",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
-   }
-  }
- },
  "302": {
   "name": "Flurschützstraße 5",
   "addr": "Flurschützstraße 5, 1120 Wien",
@@ -58,20 +30,6 @@
     "badge": "reserviert",
     "available": false,
     "signup": null
-   }
-  }
- },
- "330": {
-  "name": "Linzer Straße 274",
-  "addr": "Linzer Straße 274, 1140 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=330",
-  "tops": {
-   "8330": {
-    "info": "3 Zimmer  | 84,91m² | monatliche Kosten: € 685,77 | Finanzierung: € 10.592,72",
-    "where": "1140 Wien Hütteldorfer Straße 311 , Top 9, Stiege 6",
-    "badge": "verfügbar",
-    "available": true,
-    "signup": "open"
    }
   }
  },
@@ -131,20 +89,6 @@
    "8024": {
     "info": "74,95m² | monatliche Kosten: € 1.184,80 | Finanzierung: € 8.920,54",
     "where": "1210 Wien Johannes-de-La-Salle-Gasse 4 , Top 35, Stiege 2",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
-   }
-  }
- },
- "338": {
-  "name": "Ottilie-Bondy-Promenade 11",
-  "addr": "Ottilie-Bondy-Promenade 11, 1210 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=338",
-  "tops": {
-   "41637": {
-    "info": "80,00m² | monatliche Kosten: € 781,13 | Finanzierung: € 4.190,79",
-    "where": "1210 Wien Ottilie-Bondy-Promenade 11 , Top 18",
     "badge": "reserviert",
     "available": false,
     "signup": null
@@ -213,20 +157,6 @@
    }
   }
  },
- "328": {
-  "name": "Perfektastraße 15-21a",
-  "addr": "Perfektastraße 15-21a, 1230 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=328",
-  "tops": {
-   "12562": {
-    "info": "2 Zimmer  | 62,42m² | monatliche Kosten: € 521,16 | Finanzierung: € 6.288,36",
-    "where": "1230 Wien Perfektastraße 15 , Top 7",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
-   }
-  }
- },
  "57": {
   "name": "Rodauner Straße 53",
   "addr": "Rodauner Straße 53, 1230 Wien",
@@ -240,17 +170,5 @@
     "signup": null
    }
   }
- },
- "311": {
-  "name": "Autofabrikstraße 9",
-  "addr": "Autofabrikstraße 9, 1230 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=311",
-  "tops": {}
- },
- "765": {
-  "name": "Mackgasse 7-13",
-  "addr": "Mackgasse 7-13, 1230 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=765",
-  "tops": {}
  }
 }
