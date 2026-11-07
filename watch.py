@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 
 BASE = Path(__file__).parent
-LIST_URL = "https://www.nhg.at/angebot/?city=Wien"
+LIST_URL = "https://www.nhg.at/angebot/?city=Wien&rent=900&area=50"
 SIGNUP_URL = "https://www.nhg.at/anmelden/?topId={tid}"
 STATE = BASE / "state.json"
 TOPIC = os.environ["NTFY_TOPIC"]
