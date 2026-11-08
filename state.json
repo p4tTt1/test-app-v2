@@ -49,9 +49,9 @@
    "21724": {
     "info": "60,44m² | monatliche Kosten: € 613,46 | Finanzierung: € 12.970,93",
     "where": "1210 Wien Weisselgasse 5 , Top 39",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
+    "badge": "verfügbar",
+    "available": true,
+    "signup": "open"
    }
   }
  },
