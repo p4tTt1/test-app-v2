@@ -1,48 +1,8 @@
 {
- "816": {
-  "name": "\"Kurbadstraße\" Oberlaa - Bearbeitungsgebiet 1",
-  "addr": "Lucy-Doraine-Weg 1/Leopold-Prucha-G. 3, 1100 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=816",
-  "tops": {}
- },
- "302": {
-  "name": "Flurschützstraße 5",
-  "addr": "Flurschützstraße 5, 1120 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=302",
-  "tops": {
-   "9796": {
-    "info": "1 Zimmer  | 32,34m² | monatliche Kosten: € 281,42 | Finanzierung: € 259,88",
-    "where": "1120 Wien Flurschützstraße 5 , Top 5, Stiege 1",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
-   }
-  }
- },
- "511": {
-  "name": "Breitenfurter Straße 73-77",
-  "addr": "Breitenfurter Straße 73-77, 1120 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=511",
-  "tops": {
-   "33422": {
-    "info": "3 Zimmer  | 78,55m² | monatliche Kosten: € 914,14 | Finanzierung: € 10.102,24",
-    "where": "1120 Wien Breitenfurter Straße 73 , Top 124",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
-   }
-  }
- },
- "757": {
-  "name": "Muthgasse 109B",
-  "addr": "Muthgasse 109B, 1190 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=757",
-  "tops": {}
- },
  "333": {
   "name": "Johannes-de-la-Salle-Gasse 12",
   "addr": "Johannes-de-la-Salle-Gasse 12, 1210 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=333",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&rent=900&area=50&id=333",
   "tops": {
    "1083": {
     "info": "2 Zimmer  | 61,49m² | monatliche Kosten: € 824,28 | Finanzierung: € 7.030,96",
@@ -53,24 +13,10 @@
    }
   }
  },
- "662": {
-  "name": "Anton-Böck-Gasse 34",
-  "addr": "Anton-Böck-Gasse 34, 1210 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=662",
-  "tops": {
-   "15676": {
-    "info": "2 Zimmer  | 46,16m² | monatliche Kosten: € 669,01",
-    "where": "1210 Wien Anton-Böck-Gasse 34 , Top 2",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
-   }
-  }
- },
  "610": {
   "name": "Johannes-de-La-Salle-Gasse 4",
   "addr": "Johannes-de-La-Salle-Gasse 4, 1210 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=610",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&rent=900&area=50&id=610",
   "tops": {
    "25446": {
     "info": "2 Zimmer  | 51,86m² | monatliche Kosten: € 765,98 | Finanzierung: € 6.317,82",
@@ -98,7 +44,7 @@
  "301": {
   "name": "Weisselgasse 5",
   "addr": "Weisselgasse 5, 1210 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=301",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&rent=900&area=50&id=301",
   "tops": {
    "21724": {
     "info": "60,44m² | monatliche Kosten: € 613,46 | Finanzierung: € 12.970,93",
@@ -109,16 +55,10 @@
    }
   }
  },
- "404": {
-  "name": "Fünf Freunde - Quartier an der Schanze",
-  "addr": "Antonie-Lehr-Straße 8, 1210 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=404",
-  "tops": {}
- },
  "162": {
   "name": "Seefelderg. 46",
   "addr": "Seefelderg. 46, 1220 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=162",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&rent=900&area=50&id=162",
   "tops": {
    "4122": {
     "info": "3 Zimmer  | 87,87m² | monatliche Kosten: € 839,07 | Finanzierung: € 13.224,09",
@@ -129,24 +69,10 @@
    }
   }
  },
- "731": {
-  "name": "Lavaterstraße 3",
-  "addr": "Lavaterstraße 3, 1220 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=731",
-  "tops": {
-   "13846": {
-    "info": "2 Zimmer  | 42,86m² | monatliche Kosten: € 497,32 | Finanzierung: € 7.146,62",
-    "where": "1220 Wien Lavaterstraße 3 , Top 10, Stiege 1",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
-   }
-  }
- },
  "652": {
   "name": "Marlen-Haushofer-Weg 1",
   "addr": "Marlen-Haushofer-Weg 1, 1220 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=652",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&rent=900&area=50&id=652",
   "tops": {
    "5427": {
     "info": "2 Zimmer  | 52,37m² | monatliche Kosten: € 560,33 | Finanzierung: € 12.711,23",
@@ -160,7 +86,7 @@
  "57": {
   "name": "Rodauner Straße 53",
   "addr": "Rodauner Straße 53, 1230 Wien",
-  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=57",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&rent=900&area=50&id=57",
   "tops": {
    "36412": {
     "info": "2 Zimmer  | 61,57m² | monatliche Kosten: € 644,37 | Finanzierung: € 3.191,11",
