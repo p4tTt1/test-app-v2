@@ -1,0 +1,73 @@
+{
+ "status": "ok",
+ "items": {
+  "4285": {
+   "badge": "Sofortbezug",
+   "info": "Wohnung – Miete – 1110 Wien",
+   "name": "Herbortgasse 28/H013",
+   "details": [
+    "65 m²",
+    "€ 866,95",
+    "2 Zimmer",
+    "1. Obergeschoss"
+   ],
+   "url": "https://www.oevw.at/suche/4285-herbortgasse-28-h013"
+  },
+  "6163": {
+   "badge": "Sofortbezug",
+   "info": "Wohnung – Miete – 1210 Wien",
+   "name": "Pilzgasse 16a/a1/12",
+   "details": [
+    "51 m²",
+    "€ 425,54",
+    "2 Zimmer",
+    "3. Obergeschoss",
+    "Eigenmittel: € 14.847,17"
+   ],
+   "url": "https://www.oevw.at/suche/6163-pilzgasse-16a-a1-12"
+  },
+  "472": {
+   "badge": "Sofortbezug",
+   "info": "Wohnung – Miete – 1210 Wien",
+   "name": "Georg-Schicht-Platz 1/3/1b",
+   "details": [
+    "59 m²",
+    "€ 638,33",
+    "2 Zimmer",
+    "Erdgeschoss",
+    "0 m² Garten",
+    "3 m² Loggia",
+    "0 m² Balkon",
+    "6 m² Terrasse",
+    "Eigenmittel: € 14.738,48"
+   ],
+   "url": "https://www.oevw.at/suche/472-georg-schicht-platz-1-3-1b"
+  },
+  "6124": {
+   "badge": "Sofortbezug",
+   "info": "Wohnung – Miete – 1210 Wien",
+   "name": "Lebnergasse 1/5/10",
+   "details": [
+    "83 m²",
+    "€ 697,86",
+    "2 Zimmer",
+    "1. Dachgeschoss",
+    "Eigenmittel: € 10.448,33"
+   ],
+   "url": "https://www.oevw.at/suche/6124-lebnergasse-1-5-10"
+  },
+  "946": {
+   "badge": "Sofortbezug",
+   "info": "Wohnung – Miete – 1220 Wien",
+   "name": "Schenk-Danzinger-Gasse 12/6/13",
+   "details": [
+    "58 m²",
+    "€ 895,03",
+    "2 Zimmer",
+    "4. Obergeschoss",
+    "3 m² Loggia"
+   ],
+   "url": "https://www.oevw.at/suche/946-schenk-danzinger-gasse-12-6-13"
+  }
+ }
+}
