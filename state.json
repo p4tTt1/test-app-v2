@@ -35,9 +35,9 @@
    "1083": {
     "info": "2 Zimmer  | 61,49m² | monatliche Kosten: € 824,28 | Finanzierung: € 7.030,96",
     "where": "1210 Wien Johannes-de-la-Salle-Gasse 12 , Top 11, Stiege 2",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
+    "badge": "verfügbar",
+    "available": true,
+    "signup": "open"
    }
   }
  },
