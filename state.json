@@ -21,16 +21,16 @@
    "25446": {
     "info": "2 Zimmer  | 51,86m² | monatliche Kosten: € 765,98 | Finanzierung: € 6.317,82",
     "where": "1210 Wien Johannes-de-La-Salle-Gasse 4 , Top 4, Stiege 2",
-    "badge": "verfügbar",
-    "available": true,
-    "signup": "full"
+    "badge": "reserviert",
+    "available": false,
+    "signup": null
    },
    "1214": {
     "info": "3 Zimmer  | 73,32m² | monatliche Kosten: € 989,93 | Finanzierung: € 8.235,74",
     "where": "1210 Wien Johannes-de-La-Salle-Gasse 4 , Top 20, Stiege 2",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
+    "badge": "verfügbar",
+    "available": true,
+    "signup": "open"
    },
    "8024": {
     "info": "74,95m² | monatliche Kosten: € 1.184,80 | Finanzierung: € 8.920,54",
