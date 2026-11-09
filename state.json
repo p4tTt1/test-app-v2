@@ -114,6 +114,14 @@
   "name": "Rodauner Straße 53",
   "addr": "Rodauner Straße 53, 1230 Wien",
   "url": "https://www.nhg.at/Projekte/Details/?city=Wien&area=50&id=57",
-  "tops": {}
+  "tops": {
+   "36412": {
+    "info": "2 Zimmer  | 61,57m² | monatliche Kosten: € 644,37 | Finanzierung: € 3.191,11",
+    "where": "1230 Wien Breitenfurter Straße 452 , Top 5, Stiege 1",
+    "badge": "reserviert",
+    "available": false,
+    "signup": null
+   }
+  }
  }
 }
