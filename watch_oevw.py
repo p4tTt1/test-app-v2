@@ -14,6 +14,8 @@ PAYLOAD = {
 }
 WIEN_RE = re.compile(r"\b1[0-2]\d0\s+Wien\b")
 STATE = BASE / "state_oevw.json"
+CONTACT_URL = "https://www.oevw.at/suche/6172-weilandgasse-3-2"
+CONTACT_STATE = BASE / "state_oevw_contact.json"
 TOPIC = os.environ["NTFY_TOPIC"]
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (private apartment watcher)",
@@ -121,7 +123,40 @@ def describe(v):
     return " | ".join(x for x in signature(v) if x)
 
 
+def check_contact():
+    """Meldet einmalig, sobald die Objektseite einen Ansprechpartner zeigt."""
+    if not CONTACT_STATE.exists():
+        CONTACT_STATE.write_text(json.dumps({"notified": False}), "utf-8")
+    if json.loads(CONTACT_STATE.read_text("utf-8")).get("notified"):
+        return
+
+    r = requests.get(CONTACT_URL, timeout=30,
+                     headers={"User-Agent": HEADERS["User-Agent"]})
+    r.raise_for_status()
+    soup = BeautifulSoup(r.text, "html.parser")
+
+    if soup.select_one("section.enrollment") is None:
+        print("Kontakt-Check: Bereich 'Reservierung' nicht gefunden")
+        return
+    name = text_of(soup.select_one("section.enrollment .person__name"))
+    if not name:
+        print("Kontakt-Check: noch kein Ansprechpartner")
+        return
+
+    phone = text_of(soup.select_one("section.enrollment .person__phone"))
+    mail = text_of(soup.select_one("section.enrollment .person__email"))
+    notify("ÖVW: Ansprechpartner für Weilandgasse 3/2",
+           "\n".join(x for x in (name, phone, mail) if x),
+           CONTACT_URL, 5)
+    CONTACT_STATE.write_text(json.dumps({"notified": True}), "utf-8")
+
+
 def main():
+    try:
+        check_contact()
+    except Exception as e:
+        print("Kontakt-Check fehlgeschlagen:", e)
+    
     status, found, total = parse(fetch_html())
     old = json.loads(STATE.read_text("utf-8")) if STATE.exists() else None
 
