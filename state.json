@@ -7,9 +7,9 @@
    "1164": {
     "info": "2 Zimmer  | 50,98m² | monatliche Kosten: € 383,66 | Finanzierung: € 3.896,72",
     "where": "1030 Wien Göllnergasse  33 , Top 8",
-    "badge": "reserviert",
-    "available": false,
-    "signup": null
+    "badge": "verfügbar",
+    "available": true,
+    "signup": "open"
    }
   }
  },
