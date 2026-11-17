@@ -26,6 +26,11 @@ BLOCKED_IDS = {
     "816"
 }
 
+# Projekte, die vorrangig gechecked werden sollen (alles andere wird ignoriert)
+PRIORITY_IDS = {
+    "404"
+}
+
 # Textteile in Name oder Adresse (ohne Beachtung der Groß-/Kleinschreibung)
 BLOCKED_TEXT = []
 
@@ -123,7 +128,8 @@ def main():
     new = {}
 
     for pid, p in projects.items():
-        if is_blocked(pid, p):
+        #if is_blocked(pid, p):
+        if pid not in PRIORITY_IDS:
             continue
         time.sleep(1)
         try:
