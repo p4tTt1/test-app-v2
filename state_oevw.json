@@ -40,6 +40,23 @@
    ],
    "url": "https://www.oevw.at/suche/6163-pilzgasse-16a-a1-12"
   },
+  "1632": {
+   "badge": "Sofortbezug",
+   "info": "Wohnung – Miete – 1210 Wien",
+   "name": "Scheffelstraße 20/7",
+   "details": [
+    "63 m²",
+    "€ 599,12",
+    "2 Zimmer",
+    "2. Obergeschoss",
+    "0 m² Garten",
+    "6 m² Loggia",
+    "0 m² Balkon",
+    "0 m² Terrasse",
+    "Eigenmittel: € 12.369,30"
+   ],
+   "url": "https://www.oevw.at/suche/1632-scheffelstrasse-20-7"
+  },
   "6173": {
    "badge": "Sofortbezug",
    "info": "Wohnung – Miete – 1210 Wien",
@@ -94,6 +111,19 @@
     "Eigenmittel: € 12.410,97"
    ],
    "url": "https://www.oevw.at/suche/6174-felix-slavik-strasse-5-3-14"
+  },
+  "6175": {
+   "badge": "Sofortbezug",
+   "info": "Wohnung – Miete – 1210 Wien",
+   "name": "Lebnergasse 1/10/3",
+   "details": [
+    "60 m²",
+    "€ 486,89",
+    "2 Zimmer",
+    "Erdgeschoss",
+    "Eigenmittel: € 4.974,46"
+   ],
+   "url": "https://www.oevw.at/suche/6175-lebnergasse-1-10-3"
   }
  }
 }
