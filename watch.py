@@ -94,12 +94,16 @@ def parse_tops(soup):
 
 
 def check_signup(tid):
-    """'open' = Formular da, 'full' = Limit erreicht, 'unknown' = weder noch."""
+    """'open' = Formular, 'full' = Limit erreicht,
+    'gone' = Einheit nicht mehr verfügbar, 'unknown' = nichts davon."""
     soup = get(SIGNUP_URL.format(tid=tid))
-    if "Anmeldelimit erreicht" in soup.get_text(" ", strip=True):
+    text = soup.get_text(" ", strip=True)
+    if "Anmeldelimit erreicht" in text:
         return "full"
     if soup.select_one("#anmelden_form"):
         return "open"
+    if "Diese Einheit ist nicht mehr verfügbar" in text:
+        return "gone"
     return "unknown"
 
 
@@ -114,7 +118,7 @@ def is_blocked(pid, p):
 
 def any_recognized(state):
     """True, wenn mindestens eine Anmeldeseite eindeutig erkannt wurde."""
-    return any(t.get("signup") in ("open", "full")
+    return any(t.get("signup") in ("open", "full", "gone")
                for p in state.values() for t in p.get("tops", {}).values())
 
 
