@@ -15,7 +15,7 @@ TOPIC = os.environ["NTFY_TOPIC"]
 HEADERS = {"User-Agent": "Mozilla/5.0 (private apartment watcher)"}
 
 # Nur diese Projekte prüfen (leer = alle)
-ALLOWED_IDS = set() #{"404"}
+ALLOWED_IDS = {"404"}
 # Projekte, die ignoriert werden sollen (ID als Text, Kommentar zur Erinnerung)
 BLOCKED_IDS = {
     "765",
