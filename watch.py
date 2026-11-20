@@ -18,14 +18,24 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (private apartment watcher)"}
 ALLOWED_IDS = set() #{"404"}
 # Projekte, die ignoriert werden sollen (ID als Text, Kommentar zur Erinnerung)
 BLOCKED_IDS = {
-    "765",
-    "311",
-    "338",
-    "255",
+    "57",
     "67",
-    "330",
+    "128",
+    "148",
+    "255",
+    "280",
+    "311",
     "328",
-    "816"
+    "330",
+    "333",
+    "338",
+    "401",
+    "511",
+    "610",
+    "662",
+    "757",
+    "765",
+    "816",
 }
 # Textteile in Name oder Adresse, die ein Projekt sperren
 BLOCKED_TEXT = []
