@@ -1,4 +1,111 @@
 {
+ "128": {
+  "name": "Göllnergasse 33",
+  "addr": "Göllnergasse 33, 1030 Wien",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=128",
+  "tops": {
+   "1164": {
+    "info": "2 Zimmer  | 50,98m² | monatliche Kosten: € 383,66 | Finanzierung: € 3.896,72",
+    "where": "1030 Wien Göllnergasse  33 , Top 8",
+    "signup": "gone"
+   }
+  }
+ },
+ "280": {
+  "name": "Laaer-Berg-Straße 100/1-3",
+  "addr": "Laaer-Berg-Straße 100/1-3, 1100 Wien",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=280",
+  "tops": {
+   "24840": {
+    "info": "43,72m² | monatliche Kosten: € 835,74 | Finanzierung: € 7.469,83",
+    "where": "1100 Wien Laaer-Berg-Straße 100 , Top 46, Stiege 1",
+    "signup": "gone"
+   }
+  }
+ },
+ "511": {
+  "name": "Breitenfurter Straße 73-77",
+  "addr": "Breitenfurter Straße 73-77, 1120 Wien",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=511",
+  "tops": {
+   "33422": {
+    "info": "3 Zimmer  | 78,55m² | monatliche Kosten: € 914,14 | Finanzierung: € 10.102,24",
+    "where": "1120 Wien Breitenfurter Straße 73 , Top 124",
+    "signup": "gone"
+   }
+  }
+ },
+ "401": {
+  "name": "Huttengasse 21",
+  "addr": "Huttengasse 21, 1160 Wien",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=401",
+  "tops": {
+   "33497": {
+    "info": "2 Zimmer  | 69,81m² | monatliche Kosten: € 800,64",
+    "where": "1160 Wien Steinbruchstraße 6a , Top 15, Stiege 4",
+    "signup": "gone"
+   }
+  }
+ },
+ "757": {
+  "name": "Muthgasse 109B",
+  "addr": "Muthgasse 109B, 1190 Wien",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=757",
+  "tops": {}
+ },
+ "333": {
+  "name": "Johannes-de-la-Salle-Gasse 12",
+  "addr": "Johannes-de-la-Salle-Gasse 12, 1210 Wien",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=333",
+  "tops": {
+   "1083": {
+    "info": "2 Zimmer  | 61,49m² | monatliche Kosten: € 824,28 | Finanzierung: € 7.030,96",
+    "where": "1210 Wien Johannes-de-la-Salle-Gasse 12 , Top 11, Stiege 2",
+    "signup": "gone"
+   }
+  }
+ },
+ "662": {
+  "name": "Anton-Böck-Gasse 34",
+  "addr": "Anton-Böck-Gasse 34, 1210 Wien",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=662",
+  "tops": {
+   "15676": {
+    "info": "2 Zimmer  | 46,16m² | monatliche Kosten: € 669,01",
+    "where": "1210 Wien Anton-Böck-Gasse 34 , Top 2",
+    "signup": "gone"
+   }
+  }
+ },
+ "610": {
+  "name": "Johannes-de-La-Salle-Gasse 4",
+  "addr": "Johannes-de-La-Salle-Gasse 4, 1210 Wien",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=610",
+  "tops": {
+   "1214": {
+    "info": "3 Zimmer  | 73,32m² | monatliche Kosten: € 989,93 | Finanzierung: € 8.235,74",
+    "where": "1210 Wien Johannes-de-La-Salle-Gasse 4 , Top 20, Stiege 2",
+    "signup": "gone"
+   },
+   "8024": {
+    "info": "74,95m² | monatliche Kosten: € 1.184,80 | Finanzierung: € 8.920,54",
+    "where": "1210 Wien Johannes-de-La-Salle-Gasse 4 , Top 35, Stiege 2",
+    "signup": "gone"
+   }
+  }
+ },
+ "73": {
+  "name": "Anton Schall-Gasse 5",
+  "addr": "Anton Schall-Gasse 5, 1210 Wien",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=73",
+  "tops": {
+   "28480": {
+    "info": "2 Zimmer  | 46,73m² | monatliche Kosten: € 472,97 | Finanzierung: € 2.387,77",
+    "where": "1210 Wien Anton Schall-Gasse 5 , Top 18, Stiege 6",
+    "signup": "gone"
+   }
+  }
+ },
  "404": {
   "name": "Fünf Freunde - Quartier an der Schanze",
   "addr": "Antonie-Lehr-Straße 8, 1210 Wien",
@@ -7,6 +114,42 @@
    "47594": {
     "info": "3 Zimmer  | 75,99m² | monatliche Kosten: € 752,55 | Finanzierung: € 36.972,00",
     "where": "1210 Wien Antonie-Lehr-Straße 8 , Top 18, Stiege 2",
+    "signup": "gone"
+   }
+  }
+ },
+ "616": {
+  "name": "Groß-Enzersdorfer-Straße 56",
+  "addr": "Groß-Enzersdorfer-Straße 56, 1220 Wien",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=616",
+  "tops": {
+   "34772": {
+    "info": "3 Zimmer  | 74,58m² | monatliche Kosten: € 695,76 | Finanzierung: € 15.978,53",
+    "where": "1220 Wien Groß-Enzersdorfer-Straße 58 , Top 11",
+    "signup": "gone"
+   }
+  }
+ },
+ "57": {
+  "name": "Rodauner Straße 53",
+  "addr": "Rodauner Straße 53, 1230 Wien",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=57",
+  "tops": {
+   "36412": {
+    "info": "2 Zimmer  | 61,57m² | monatliche Kosten: € 644,37 | Finanzierung: € 3.191,11",
+    "where": "1230 Wien Breitenfurter Straße 452 , Top 5, Stiege 1",
+    "signup": "gone"
+   }
+  }
+ },
+ "148": {
+  "name": "Breitenfurter Str. 376",
+  "addr": "Breitenfurter Str. 376, 1230 Wien",
+  "url": "https://www.nhg.at/Projekte/Details/?city=Wien&id=148",
+  "tops": {
+   "75": {
+    "info": "64,46m² | monatliche Kosten: € 615,10 | Finanzierung: € 12.243,74",
+    "where": "1230 Wien Breitenfurter Str. 376 , Top 9, Stiege 4",
     "signup": "gone"
    }
   }
