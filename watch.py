@@ -30,6 +30,13 @@ BLOCKED_IDS = {
 # Textteile in Name oder Adresse, die ein Projekt sperren
 BLOCKED_TEXT = []
 
+STATS = {"req": 0, "net": 0.0, "sleep": 0.0, "slow": []}
+
+
+def pause(sec=0.2):
+    STATS["sleep"] += sec
+    time.sleep(sec)
+
 
 def build_bundle():
     ca = Path(certifi.where()).read_text()
@@ -41,6 +48,9 @@ def build_bundle():
 
 
 CA_BUNDLE = build_bundle()
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
+SESSION.verify = CA_BUNDLE
 
 
 def notify(title, message, url, priority=4):
@@ -52,7 +62,12 @@ def notify(title, message, url, priority=4):
 
 
 def get(url):
-    r = requests.get(url, headers=HEADERS, timeout=30, verify=CA_BUNDLE)
+    t0 = time.perf_counter()
+    r = SESSION.get(url, timeout=30)
+    dt = time.perf_counter() - t0
+    STATS["req"] += 1
+    STATS["net"] += dt
+    STATS["slow"].append((dt, url))
     r.raise_for_status()
     return BeautifulSoup(r.text, "html.parser")
 
@@ -123,6 +138,7 @@ def any_recognized(state):
 
 
 def main():
+    t_start = time.perf_counter()
     if FOCUS_ID:
         projects = {FOCUS_ID: {
             "name": "Fokus-Projekt", "addr": "",
@@ -141,7 +157,7 @@ def main():
     for pid, p in projects.items():
         if is_blocked(pid, p):
             continue
-        time.sleep(1)
+        pause()
         try:
             tops = parse_tops(get(p["url"]))
         except Exception as e:
@@ -152,7 +168,7 @@ def main():
         old_tops = old.get(pid, {}).get("tops", {})
         for tid, t in tops.items():
             prev = old_tops.get(tid, {}).get("signup")
-            time.sleep(1)
+            pause()
             try:
                 status = check_signup(tid)
                 checked += 1
@@ -183,6 +199,14 @@ def main():
 
     STATE.write_text(json.dumps(new, ensure_ascii=False, indent=1), "utf-8")
     print(f"Anmeldeseiten geprüft: {checked}")
+
+    total = time.perf_counter() - t_start
+    rest = total - STATS["net"] - STATS["sleep"]
+    print(f"Laufzeit: {total:.1f}s | Anfragen: {STATS['req']} | "
+          f"Netzwerk: {STATS['net']:.1f}s | Pausen: {STATS['sleep']:.1f}s | "
+          f"Rest (Parsen etc.): {rest:.1f}s")
+    for dt, url in sorted(STATS["slow"], reverse=True)[:5]:
+        print(f"  {dt:.2f}s  {url}")
 
 
 if __name__ == "__main__":
